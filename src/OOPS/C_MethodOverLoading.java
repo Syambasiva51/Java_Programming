@@ -4,8 +4,20 @@ package OOPS;
  * MethodOverLoading
  * StartTime: 1:54:00
  * EndTime:2:18:00`
+ * 
+ * Key:points:
+ * 
  * Method Overloading is a feature that allows a class to have multiple 
  * methods with the same name but with different number, sequence or type of parameters.
+ * 
+ * you Cannot create a method inside method
+ * duplicate methods --> i.e with same number of arguments is not allowed.
+ * 
+ * question: 
+ * q.can we overload main method.
+ * a.yes, we overload main method. 
+ * 
+ * 
  * 
  */
 

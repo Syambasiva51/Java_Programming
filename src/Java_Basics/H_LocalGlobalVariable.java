@@ -30,8 +30,6 @@ public class H_LocalGlobalVariable {
 		obj.i=20;
 		System.out.println("printing Static variable"+ st);//static variable can be called directly
 		System.out.println("printing non-static variable"+ obj.i);//non-static should be called with object reference only
-			
-
 	}
 	
 public void add()
@@ -42,12 +40,10 @@ public void add()
 	System.out.println(st);// global static variable can be directly used inside static and non-static methods
 	System.out.println(i); // global non-static variable can be used directly inside only non-static methods
 }
-
 public static void sub()
 {
 	//H_LocalGlobalVariable obj = new H_LocalGlobalVariable();
 	System.out.println(H_LocalGlobalVariable.st);//
 	//System.out.println(obj.i); //global non-static variable cannot be used directly inside only non-static methods
-	
-}
+	}
 }

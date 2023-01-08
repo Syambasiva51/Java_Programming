@@ -22,12 +22,14 @@ public class D_Loops {
 			System.out.println(i);
 			System.out.println("Increment");
 			}
+System.out.println("**************************************************************");
 //Decrement For Loop		
 		for(int i =10;i>0;i--)
 		{
 			System.out.println(i);
 			System.out.println("decrement");
 		}	
+System.out.println("**************************************************************");
 //NESTED FOR LOOP:
 		 
 		for(int i=1;i<=3;i++)
@@ -37,6 +39,8 @@ public class D_Loops {
 					System.out.println(i+" "+j);  
 					} 
 			}	
+
+System.out.println("**************************************************************");		
 //Infinite LOOP
 		/*for(int i=1;i>=1;i++)
 		{
@@ -50,7 +54,8 @@ public class D_Loops {
 		{
 			System.out.println("value of array"+arr[i]);
 		}
-		
+
+System.out.println("**************************************************************");
 //Enhanced For Loop: 
 //Enhanced for loop is another way of defining a loop. 
 //This is especially useful when you want to iterate array, ArrayList and other collections classes.	
@@ -58,8 +63,17 @@ public class D_Loops {
 	      for (int num : arr1) {
 	         System.out.println(num);
 	      }
-		
-	
+
+System.out.println("**************************************************************");		
+//While loop:
+	      //disadvantage with while loop:
+	      //if you don't provide increment or decremental in while loop it will run for infinite times.
+	      int z=0;//initilization
+	      while(z<=10) //conditional part
+	      {
+	    	  System.out.println("while loop"+z);
+	    	  z=z+1;//incremental or decremental part
+	      }
 		
 		
 	}

@@ -18,11 +18,6 @@ public class A_dataTypes {
 		byte a1= 10;
 		short s=1000;
 		System.out.println(f);
-		
-		
-
-		
-
 	}
 
 }

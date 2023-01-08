@@ -61,7 +61,7 @@ public class B_ConditionsIFelse {
 	    
 	    //switch case:
 	     int numb=2;
-	     switch(numb+1)
+	     switch(numb)
 	     {
 	     case 1:
 	    	 System.out.println("case1:"+numb);

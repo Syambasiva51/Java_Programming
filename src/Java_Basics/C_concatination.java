@@ -18,7 +18,10 @@ public class C_concatination {
       System.out.println(st+a);
       System.out.println(st+b);
       System.out.println(st+a+b);
-		
+	
+      //naveen automation labs:
+      
+      
 		
 	}
 
